@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+}
+.content-container {
+  display: inline-flex;
+  margin: 40px;
+  overflow: auto;
+  width: auto;
+  max-height: auto;
+}
+
+.productWrapper {
+  margin-left: 40px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.productWrapper:hover{
+  cursor: pointer;
+}
+.productCard {
+  width: 200px;
+  margin-left: 20px;
+}
+.search-form.search-button{
+  margin-left: 10px;
+}
+
+.search-form {
+  display: flex;
+  margin-right: 100px;
+}
+.input {
+  margin-right:20px;
+}
+
+.login-btn {
+  margin-right: 20px;
+}
+.shopping-cart-btn {
+
+}
+.shopping-cart-btn-counter {
+  font-size: 12px;
+  background: #ff0000;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+  border-radius: 50%;
+  position: absolute;
+  float: right;
+  right: 10px;
+  top: 30px;
+  display: none;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
